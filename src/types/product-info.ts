@@ -1,8 +1,8 @@
 
 export type ProductInfo = {
-    id: string;
-    title: string;
-    image: string;
+	id: string;
+	title: string;
+	image: string;
 	subtitle: string;
 	brand: string;
 	reviews: Review[];
@@ -10,18 +10,18 @@ export type ProductInfo = {
 	details: string[];
 	tags: string[];
 	sales: SalesData[];
-}
+};
 
 export type Review = {
-    customer: string;
-    review: string;
-    score: number;
-}
+	customer: string;
+	review: string;
+	score: number;
+};
 
-export type SalesData ={
-    weekEnding: string;
-    retailSales:number;
-    wholesaleSales:number;
-    unitsSold:number;
-    retailerMargin:number;
-}
+export type SalesData = {
+	weekEnding: string;
+	retailSales: number;
+	wholesaleSales: number;
+	unitsSold: number;
+	retailerMargin: number;
+};
